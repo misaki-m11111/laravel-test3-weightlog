@@ -39,6 +39,11 @@ Dockerビルド
 ・MySQL 8.0.26  
 ・Nginx 1.21  
 
+## ログインについて
+
+ダミーデータはFactoryによりランダム生成されています。    
+ログインする場合は、ユーザー登録画面から新規登録を行ってください。  
+
 ## ER図
 <img width="1291" height="412" alt="weigthlog-er" src="https://github.com/user-attachments/assets/09d1af07-2655-4bce-988a-b4e62c9a0629" />
 
