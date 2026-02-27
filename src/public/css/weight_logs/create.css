@@ -1,0 +1,101 @@
+body {
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.form-area {
+    width: 520px;
+    margin: 80px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
+}
+
+.form-area h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.label-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.required {
+    background: #ff6b6b;
+    color: #fff;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-row input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    background: #fafafa;
+    box-sizing: border-box;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="time"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    background: #fafafa;
+    box-sizing: border-box;
+}
+
+.unit-out {
+    font-size: 14px;
+    min-width: 30px;
+}
+
+.error {
+    color: #e3342f;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.create__actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.create__btn {
+    width: 48%;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.create__btn-back {
+    background: #e5e5e5;
+    color: #333;
+}
+
+.create__btn-create {
+    background: linear-gradient(90deg, #a78bfa, #f472b6);
+    color: #fff;
+}

@@ -3,16 +3,24 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\User;
+use App\Models\WeightLog;
+use App\Models\WeightTarget;
 
 class DatabaseSeeder extends Seeder
 {
-    /**
-     * Seed the application's database.
-     *
-     * @return void
-     */
+
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        User::factory()
+            ->has(
+                WeightLog::factory()->count(35),
+                'weightLogs'
+            )
+            ->has(
+                WeightTarget::factory(),
+                'weightTarget'
+            )
+            ->create();
     }
 }
