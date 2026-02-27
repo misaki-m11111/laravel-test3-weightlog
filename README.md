@@ -40,6 +40,5 @@ Dockerビルド
 ・Nginx 1.21  
 
 ## ER図
-
-
+<img width="1291" height="412" alt="weigthlog-er" src="https://github.com/user-attachments/assets/09d1af07-2655-4bce-988a-b4e62c9a0629" />
 
