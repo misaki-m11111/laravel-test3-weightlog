@@ -1,0 +1,9 @@
+docker/mysql/data/
+docker/mysql/logs/
+.env
+.env.backup
+docker-compose.override.yml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
