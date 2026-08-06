@@ -46,7 +46,7 @@ class WeightLogController extends Controller
             $query->whereBetween('date', [$request->from, $request->to]);
         }
 
-        $weightLogs = $query->paginate(8);
+        $weightLogs = $query->paginate(8)->appends($request->all());
 
         $count = $weightLogs->total();
 

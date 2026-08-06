@@ -44,7 +44,6 @@
             <div class="form-group">
                 <div class="label-row">
                     <label>摂取カロリー</label>
-                    <span class="required">必須</span>
                 </div>
                 <div class="input-row">
                     <input type="text" name="calories" value="{{ old('calories', $weightLog->calories) }}"
@@ -60,7 +59,6 @@
             <div class="form-group">
                 <div class="label-row">
                     <label>運動時間</label>
-                    <span class="required">必須</span>
                 </div>
                 <div class="input-wrap">
                     <input type="time" name="exercise_time"
@@ -75,7 +73,6 @@
             <div class="form-group">
                 <div class="label-row">
                     <label>運動内容</label>
-                    <span class="required">必須</span>
                 </div>
                 <div class="input-wrap">
                     <input type="text" name="exercise_content"

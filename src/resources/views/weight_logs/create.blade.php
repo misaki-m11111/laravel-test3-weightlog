@@ -43,7 +43,6 @@
             <div class="form-group">
                 <div class="label-row">
                     <label>摂取カロリー</label>
-                    <span class="required">必須</span>
                 </div>
 
                 <div class="input-row">
@@ -59,7 +58,6 @@
             <div class="form-group">
                 <div class="label-row">
                     <label>運動時間</label>
-                    <span class="required">必須</span>
                 </div>
                 <div class="input-wrap">
                     <input type="time" name="exercise_time" value="{{ old('exercise_time') }}">
@@ -73,7 +71,6 @@
             <div class="form-group">
                 <div class="label-row">
                     <label>運動内容</label>
-                    <span class="required">必須</span>
                 </div>
                 <div class="input-wrap">
                     <input type="text" name="exercise_content" value="{{ old('exercise_content') }}"

@@ -6,9 +6,9 @@
 
 @section('content')
     <div class="auth auth--register">
-        <h2 class="page__logo">PiGLy</h2>
-        <h3 class="page__title">新規会員登録</h3>
-        <h4 class="page__step">STEP2 体重データの入力</h4>
+        <h1 class="page__logo">PiGLy</h1>
+        <h2 class="page__title">新規会員登録</h2>
+        <h3 class="page__step">STEP2 体重データの入力</h3>
 
         <form method="POST" action="/register/step2">
             @csrf

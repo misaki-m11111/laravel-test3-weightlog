@@ -6,8 +6,8 @@
 
 @section('content')
     <div class="auth auth--login">
-        <h2 class="page__logo">PiGLy</h1>
-            <h3 class="page__title">ログイン</h3>
+        <h1 class="page__logo">PiGLy</h1>
+            <h2 class="page__title">ログイン</h2>
             <form method="POST" action="/login">
                 @csrf
                 <div class="form login-form">

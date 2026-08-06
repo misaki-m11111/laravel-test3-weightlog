@@ -23,9 +23,8 @@ class StoreWeightLogRequest extends FormRequest
                 'regex:/^\d{1,3}(\.\d{1})?$/'
             ],
 
-            'calories' => 'required|numeric',
-            'exercise_time' => 'required',
-            'exercise_content' => 'required|max:120',
+            'calories' => 'numeric',
+            'exercise_content' => 'max:120',
         ];
     }
 
@@ -39,10 +38,7 @@ class StoreWeightLogRequest extends FormRequest
             'weight.between' => '4桁までの数字で入力してください',
             'weight.regex' => '小数点は1桁で入力してください',
 
-            'calories.required'=>'摂取カロリーを入力してください',
             'calories.numeric'=>'数字で入力してください',
-            'exercise_time.required'=>'運動時間を入力してください',
-            'exercise_content.required'=>'運動内容を入力してください',
             'exercise_content.max'=>'120文字以内で入力してください',
         ];
     }

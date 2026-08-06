@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Requests\Step1Request;
 use App\Http\Requests\Step2Request;
+use App\Models\WeightLog;
 
 class RegisterController extends Controller
 {
@@ -37,7 +38,14 @@ class RegisterController extends Controller
     {
         WeightTarget::create([
             'user_id' => auth()->id(),
+            'weight'=> $request->weight,
             'target_weight' => $request->target_weight,
+        ]);
+
+        WeightLog::create([
+            'user_id'=>auth()->id(),
+            'weight'=>$request->weight,
+            'date' => now()->toDateString(),
         ]);
         return redirect('/weight_logs');
     }

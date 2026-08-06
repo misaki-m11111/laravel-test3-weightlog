@@ -18,7 +18,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/weight_logs/create', [WeightLogController::class, 'create']);
     Route::post('/weight_logs/create', [WeightLogController::class, 'store']);
 
-    Route::post('/weight_logs/search', [WeightLogController::class, 'search']);
+    Route::get('/weight_logs/search', [WeightLogController::class, 'search']);
 
     Route::get('/weight_logs/goal_setting', [GoalSettingController::class, 'edit']);
     Route::put('/weight_logs/goal_setting', [GoalSettingController::class, 'update']);

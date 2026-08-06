@@ -42,7 +42,7 @@
         <div class="table-area">
             <div class="table-header">
                 <div class="left-area">
-                    <form method="POST" action="/weight_logs/search" class="search-form">
+                    <form method="GET" action="/weight_logs/search" class="search-form">
                         @csrf
                         <input type="date" name="from" value="{{ request('from') }}">
                         <span>〜</span>
