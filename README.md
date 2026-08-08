@@ -1,15 +1,15 @@
-# 体重管理（Laravel / 確認テスト）
+# 体重管理アプリ
 
 ## 環境構築
 Dockerビルド  
-・git clone git@github.com:misaki-m11111/laravel-test3-weightlog.git  
+・git clone git@github.com:misaki-m11111/laravel-weightlog.git  
 ・docker compose up -d --build
 
 ## Dockerビルド
 
 ```bash
-・git clone git@github.com:misaki-m11111/laravel-test3-weightlog.git  
-・cd laravel-test3-weightlog.git 
+・git clone git@github.com:misaki-m11111/laravel-weightlog.git  
+・cd laravel-weightlog.git 
 ・docker compose up -d --build
 ```
 
